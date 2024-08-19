@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		AF4B1D002C6A804A00FDA3EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1CFF2C6A804A00FDA3EC /* AppDelegate.swift */; };
 		AF4B1D022C6A804A00FDA3EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D012C6A804A00FDA3EC /* SceneDelegate.swift */; };
-		AF4B1D042C6A804A00FDA3EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D032C6A804A00FDA3EC /* ViewController.swift */; };
-		AF4B1D072C6A804A00FDA3EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF4B1D062C6A804A00FDA3EC /* Base */; };
+		AF4B1D042C6A804A00FDA3EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D032C6A804A00FDA3EC /* HomeViewController.swift */; };
 		AF4B1D092C6A804E00FDA3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4B1D082C6A804E00FDA3EC /* Assets.xcassets */; };
 		AF4B1D0C2C6A804E00FDA3EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = AF4B1D0B2C6A804E00FDA3EC /* Base */; };
+		AF4B1D142C6A825500FDA3EC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D132C6A825500FDA3EC /* TabBarController.swift */; };
+		AF4B1D162C6A830900FDA3EC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D152C6A830900FDA3EC /* SearchViewController.swift */; };
+		AF4B1D182C6A837B00FDA3EC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D172C6A837B00FDA3EC /* AddViewController.swift */; };
+		AF4B1D1A2C6A83BD00FDA3EC /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D192C6A83BD00FDA3EC /* LogInViewController.swift */; };
+		AF4B1D1D2C6A8BBE00FDA3EC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF4B1D1C2C6A8BBE00FDA3EC /* SnapKit */; };
+		AF4B1D1F2C6A8BBE00FDA3EC /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = AF4B1D1E2C6A8BBE00FDA3EC /* SnapKit-Dynamic */; };
+		AF4B1D242C6BA18E00FDA3EC /* HomeVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D232C6BA18E00FDA3EC /* HomeVCCell.swift */; };
+		AF4B1D482C6CEB8300FDA3EC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D472C6CEB8300FDA3EC /* NetworkService.swift */; };
+		AF4B1D4A2C6D373100FDA3EC /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D492C6D373100FDA3EC /* NetworkDataFetch.swift */; };
+		AF4B1D4C2C6D376500FDA3EC /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D4B2C6D376500FDA3EC /* SearchResults.swift */; };
+		AF4B1D4F2C6E4A4C00FDA3EC /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D4E2C6E4A4C00FDA3EC /* PhotosCell.swift */; };
+		AF4B1D522C6E4AC200FDA3EC /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AF4B1D512C6E4AC200FDA3EC /* SDWebImage */; };
+		AF4B1D542C6E4AC200FDA3EC /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AF4B1D532C6E4AC200FDA3EC /* SDWebImageMapKit */; };
+		AF4B1D562C70A55000FDA3EC /* NetworkServiceMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4B1D552C70A55000FDA3EC /* NetworkServiceMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF4B1CFC2C6A804A00FDA3EC /* Unsplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unsplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4B1CFF2C6A804A00FDA3EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4B1D012C6A804A00FDA3EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF4B1D032C6A804A00FDA3EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF4B1D062C6A804A00FDA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF4B1D032C6A804A00FDA3EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF4B1D082C6A804E00FDA3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4B1D0B2C6A804E00FDA3EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4B1D0D2C6A804E00FDA3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4B1D132C6A825500FDA3EC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AF4B1D152C6A830900FDA3EC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF4B1D172C6A837B00FDA3EC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		AF4B1D192C6A83BD00FDA3EC /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AF4B1D232C6BA18E00FDA3EC /* HomeVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCCell.swift; sourceTree = "<group>"; };
+		AF4B1D472C6CEB8300FDA3EC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AF4B1D492C6D373100FDA3EC /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
+		AF4B1D4B2C6D376500FDA3EC /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		AF4B1D4E2C6E4A4C00FDA3EC /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		AF4B1D552C70A55000FDA3EC /* NetworkServiceMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4B1D522C6E4AC200FDA3EC /* SDWebImage in Frameworks */,
+				AF4B1D1D2C6A8BBE00FDA3EC /* SnapKit in Frameworks */,
+				AF4B1D542C6E4AC200FDA3EC /* SDWebImageMapKit in Frameworks */,
+				AF4B1D1F2C6A8BBE00FDA3EC /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,40 @@
 		AF4B1CFE2C6A804A00FDA3EC /* Unsplash */ = {
 			isa = PBXGroup;
 			children = (
+				AF4B1D202C6B8D0900FDA3EC /* Api */,
 				AF4B1CFF2C6A804A00FDA3EC /* AppDelegate.swift */,
 				AF4B1D012C6A804A00FDA3EC /* SceneDelegate.swift */,
-				AF4B1D032C6A804A00FDA3EC /* ViewController.swift */,
-				AF4B1D052C6A804A00FDA3EC /* Main.storyboard */,
+				AF4B1D032C6A804A00FDA3EC /* HomeViewController.swift */,
+				AF4B1D152C6A830900FDA3EC /* SearchViewController.swift */,
+				AF4B1D172C6A837B00FDA3EC /* AddViewController.swift */,
+				AF4B1D4E2C6E4A4C00FDA3EC /* PhotosCell.swift */,
+				AF4B1D192C6A83BD00FDA3EC /* LogInViewController.swift */,
+				AF4B1D132C6A825500FDA3EC /* TabBarController.swift */,
+				AF4B1D232C6BA18E00FDA3EC /* HomeVCCell.swift */,
 				AF4B1D082C6A804E00FDA3EC /* Assets.xcassets */,
 				AF4B1D0A2C6A804E00FDA3EC /* LaunchScreen.storyboard */,
 				AF4B1D0D2C6A804E00FDA3EC /* Info.plist */,
 			);
 			path = Unsplash;
+			sourceTree = "<group>";
+		};
+		AF4B1D202C6B8D0900FDA3EC /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B1D472C6CEB8300FDA3EC /* NetworkService.swift */,
+				AF4B1D552C70A55000FDA3EC /* NetworkServiceMain.swift */,
+				AF4B1D492C6D373100FDA3EC /* NetworkDataFetch.swift */,
+				AF4B1D4D2C6D383D00FDA3EC /* Models */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		AF4B1D4D2C6D383D00FDA3EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B1D4B2C6D376500FDA3EC /* SearchResults.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,12 @@
 			dependencies = (
 			);
 			name = Unsplash;
+			packageProductDependencies = (
+				AF4B1D1C2C6A8BBE00FDA3EC /* SnapKit */,
+				AF4B1D1E2C6A8BBE00FDA3EC /* SnapKit-Dynamic */,
+				AF4B1D512C6E4AC200FDA3EC /* SDWebImage */,
+				AF4B1D532C6E4AC200FDA3EC /* SDWebImageMapKit */,
+			);
 			productName = Unsplash;
 			productReference = AF4B1CFC2C6A804A00FDA3EC /* Unsplash.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +168,10 @@
 				Base,
 			);
 			mainGroup = AF4B1CF32C6A804A00FDA3EC;
+			packageReferences = (
+				AF4B1D1B2C6A8BBD00FDA3EC /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AF4B1D502C6E4AC200FDA3EC /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = AF4B1CFD2C6A804A00FDA3EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +188,6 @@
 			files = (
 				AF4B1D092C6A804E00FDA3EC /* Assets.xcassets in Resources */,
 				AF4B1D0C2C6A804E00FDA3EC /* Base in Resources */,
-				AF4B1D072C6A804A00FDA3EC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4B1D042C6A804A00FDA3EC /* ViewController.swift in Sources */,
+				AF4B1D562C70A55000FDA3EC /* NetworkServiceMain.swift in Sources */,
+				AF4B1D4C2C6D376500FDA3EC /* SearchResults.swift in Sources */,
+				AF4B1D162C6A830900FDA3EC /* SearchViewController.swift in Sources */,
+				AF4B1D042C6A804A00FDA3EC /* HomeViewController.swift in Sources */,
+				AF4B1D242C6BA18E00FDA3EC /* HomeVCCell.swift in Sources */,
+				AF4B1D182C6A837B00FDA3EC /* AddViewController.swift in Sources */,
+				AF4B1D1A2C6A83BD00FDA3EC /* LogInViewController.swift in Sources */,
+				AF4B1D482C6CEB8300FDA3EC /* NetworkService.swift in Sources */,
+				AF4B1D4A2C6D373100FDA3EC /* NetworkDataFetch.swift in Sources */,
+				AF4B1D4F2C6E4A4C00FDA3EC /* PhotosCell.swift in Sources */,
+				AF4B1D142C6A825500FDA3EC /* TabBarController.swift in Sources */,
 				AF4B1D002C6A804A00FDA3EC /* AppDelegate.swift in Sources */,
 				AF4B1D022C6A804A00FDA3EC /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +217,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF4B1D052C6A804A00FDA3EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF4B1D062C6A804A00FDA3EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF4B1D0A2C6A804E00FDA3EC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +359,9 @@
 				INFOPLIST_FILE = Unsplash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +387,9 @@
 				INFOPLIST_FILE = Unsplash/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +425,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF4B1D1B2C6A8BBD00FDA3EC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		AF4B1D502C6E4AC200FDA3EC /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF4B1D1C2C6A8BBE00FDA3EC /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4B1D1B2C6A8BBD00FDA3EC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AF4B1D1E2C6A8BBE00FDA3EC /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4B1D1B2C6A8BBD00FDA3EC /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		AF4B1D512C6E4AC200FDA3EC /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4B1D502C6E4AC200FDA3EC /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		AF4B1D532C6E4AC200FDA3EC /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4B1D502C6E4AC200FDA3EC /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF4B1CF42C6A804A00FDA3EC /* Project object */;
 }
